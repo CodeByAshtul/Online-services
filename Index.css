@@ -1,15 +1,17 @@
 /* Global styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #f9f9f9;
+    background-color: #080b00;
   }
   
   .container {
@@ -17,8 +19,8 @@
     margin: 0 auto;
     padding: 0 20px;
   }
-  
-   /* Header styles */
+
+ /* Header styles */
  header {
   background-image: url('img/logo.jpg');
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
